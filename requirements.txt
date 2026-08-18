@@ -3,10 +3,11 @@ Pillow==10.1.0
 einops==0.7.0
 git+https://github.com/tatsy/torchmcubes.git
 transformers==4.35.0
+tokenizers==0.14.1
 trimesh==4.0.5
-rembg
-huggingface-hub
+rembg[cpu]
+huggingface-hub==0.17.3
 imageio[ffmpeg]
-gradio
+gradio==4.8.0
 xatlas==0.0.9
 moderngl==5.10.0
